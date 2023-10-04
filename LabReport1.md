@@ -29,45 +29,47 @@ argument, the directory was changed to the home directory as intended because th
 
 #this is ls in all its entirety
 ```
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ ls
-lecture1
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ ls lecture1
-Hello.class  Hello.java  messages  README
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ ls lecture1/messages/en-us.txt
-lecture1/messages/en-us.txt
-[user@sahara ~]$ pwd
-/home
+1 [user@sahara ~]$ pwd
+2 /home
+3 [user@sahara ~]$ ls
+4 lecture1
+5 [user@sahara ~]$ pwd
+6 /home
+7 [user@sahara ~]$ ls lecture1
+8 Hello.class  Hello.java  messages  README
+9 [user@sahara ~]$ pwd
+10 /home
+11 [user@sahara ~]$ ls lecture1/messages/en-us.txt
+12 lecture1/messages/en-us.txt
+13 [user@sahara ~]$ pwd
+14 /home
 ```
 
->First, I used ls with no command on the home directory. This printed lecture1,
->as intended, because lecture1 was the only directory in the home folder. 
+>First, I used ls with no command on the home directory as indicated on 2. This
+>printed lecture1,as intended, because lecture1 was the only directory in the
+>home folder. 
 
->I then used ls with the lecture1 directory as an argument. This printed all of
->the files and directories within the lecture1 folder because I used lecture1 
->as the argument. 
+>I then used ls with the lecture1 directory as an argument as seen on line 7.
+>This printed all of the files and directories within the lecture1 folder
+>because I used lecture1 as the argument. 
 
-> I lastly used the file path to the en-us.txt file as an argument for ls. The 
->computer then printed the relative? file path to the terminal
+> I lastly used the file path to the en-us.txt file as an argument for ls as
+> seen on line 11. The computer then printed the relative? file path to the
+> terminal
 
 #this is cat in al its entirety
 ```
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ cat
-hellow
-hellow
-[user@sahara ~]$ pwd
-/home
-[user@sahara ~]$ cat lecture1
-cat: lecture1: Is a directory
-[user@sahara ~]$ cat lecture1/messages/en-us.txt
-Hello World!
+1 [user@sahara ~]$ pwd
+2 /home
+3 [user@sahara ~]$ cat
+4 hellow
+5 hellow
+6 [user@sahara ~]$ pwd
+7 /home
+8 [user@sahara ~]$ cat lecture1
+9 cat: lecture1: Is a directory
+10 user@sahara ~]$ cat lecture1/messages/en-us.txt
+11 Hello World!
 ```
 
 >I first used the cat without any argument at the home directory. The terminal 
