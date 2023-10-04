@@ -68,5 +68,14 @@ cat: lecture1: Is a directory
 Hello World!
 ```
 
->I first used the cat without any argument at the . The terminal had me input any characters and when 
-I pressed enter, it would print another copy of what I wrote because I didn't use any arg. 
+>I first used the cat without any argument at the home directory. The terminal had me input 
+>any characters and when I pressed enter, it would print another copy of what I wrote because 
+>I didn't use any arg. 
+
+>I then used the cat command using the lecture1 directory as an argument and home as the 
+>working directory. This returned an error because the cat command was designed so that a file
+>would be used as an argument whereas we used a directory for our argument. 
+
+>I lastly used the file path to en-us.txt as an argument for the cat command. "Hello World!" was 
+>printed into the terminal because the command told the computer to follow the file path and print 
+>whatever the contents of the file is there, which happened to be "Hello World!"
