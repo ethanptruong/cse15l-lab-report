@@ -20,8 +20,8 @@
 
 >I then trued to use the cd command with no argument. As you can see, the folder before I used
 >command was "/home/lecture1". After using the cd command with no argument, the directory was
->changed to the home directory as intended. This is seen in line 8. 
+>changed to the home directory as intended because there was no argument. This is seen in line 8. 
 
 >Lastly, I used the cd command with a path to the "en-us.txt" file as the argument. The working 
->directory at the time was the home directory This resulted in an error as this command was 
+>directory at the time was the home directory This resulted in an error because this command was 
 >intended to change to a different directory and not a file. 
