@@ -55,7 +55,7 @@ argument, the directory was changed to the home directory as intended because th
 
 > I lastly used the file path to the en-us.txt file as an argument for ls as
 > seen on line 11. The computer then printed the file path to the terminal.
-> This is not an error because if a file is provided as an argument, it will
+> This is not an error because if a filepath is provided as an argument, it will
 > print the path if the file exists. 
 
 #this is cat in al its entirety
