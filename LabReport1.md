@@ -54,8 +54,9 @@ argument, the directory was changed to the home directory as intended because th
 >because I used lecture1 as the argument. 
 
 > I lastly used the file path to the en-us.txt file as an argument for ls as
-> seen on line 11. The computer then printed the relative? file path to the
-> terminal
+> seen on line 11. The computer then printed the file path to the terminal.
+> This is an error because the ls command should have printed the files or
+> directories.
 
 #this is cat in al its entirety
 ```
