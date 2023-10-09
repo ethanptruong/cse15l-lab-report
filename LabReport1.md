@@ -16,16 +16,16 @@
 >I first tried to use the change directory or *cd* command to change the directory
 >to lecture 1 from the home directory. Using the *pwd* or "print working directory" 
 >command to demonstrate my current folder is now lecture1. The command worked as 
->intended because the working directory was lecture 1. 
+>intended because the working directory was lecture 1. There was no error. 
 
 >I then tried to use the cd command with no argument. As you can see, the folder
 before I used command was "/home/lecture1". After using the cd command with no 
 argument, the directory was changed to the home directory as intended because there 
->was no argument. This is seen in line 8. 
+>was no argument. This is seen in line 8. There was no error. 
 
 >Lastly, I used the cd command with a path to the "en-us.txt" file as the argument.
 >The working directory at the time was the home directory This resulted in an error 
->because this command was intended to change to a different directory and not a file. 
+>because this command was intended to change to a different directory and not a file.
 
 #this is ls in all its entirety
 ```
