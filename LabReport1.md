@@ -1,4 +1,4 @@
-#This is cd in all its entirety
+# This is cd
 ```
 1 [user@sahara ~]$ pwd
 2 /home
@@ -27,7 +27,7 @@ argument, the directory was changed to the home directory as intended because th
 >The working directory at the time was the home directory This resulted in an error 
 >because this command was intended to change to a different directory and not a file.
 
-#this is ls in all its entirety
+# this is ls
 ```
 1 [user@sahara ~]$ pwd
 2 /home
@@ -58,7 +58,7 @@ argument, the directory was changed to the home directory as intended because th
 > This is not an error because if a filepath is provided as an argument, it will
 > print the path if the file exists. 
 
-#this is cat in al its entirety
+# this is cat
 ```
 1 [user@sahara ~]$ pwd
 2 /home
