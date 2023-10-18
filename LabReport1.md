@@ -13,7 +13,10 @@
 11 [user@sahara ~]$ pwd
 12 /home
 ```
->I first tried to use the change directory or '''cd''' command to change the directory
+>I first tried to use the change directory or
+>'''
+>cd
+>''' command to change the directory
 >to lecture 1 from the home directory. Using the *pwd* or "print working directory" 
 >command to demonstrate my current folder is now lecture1. The command worked as 
 >intended because the working directory was lecture 1. There was no error. 
