@@ -82,7 +82,7 @@ argument, the directory was changed to the home directory as intended because th
 >was designed so that a file would be used as an argument whereas we used a 
 >directory for our argument. 
 
->I lastly used the file path to en-us.txt as an argument for the ```cat``` command. 
+>I lastly used the file path to ```en-us.txt``` as an argument for the ```cat``` command. 
 >"Hello World!" was printed into the terminal because the command told the 
 >computer to follow the file path and print whatever the contents of the file 
 >is there, which happened to be "Hello World!"
