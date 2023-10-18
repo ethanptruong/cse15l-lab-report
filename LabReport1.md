@@ -23,8 +23,8 @@ before I used command was ```/home/lecture1```. After using the cd command with 
 argument, the directory was changed to the home directory as intended because there 
 >was no argument. This is seen in line 8. There was no error. 
 
->Lastly, I used the cd command with a path to the ```en-us.txt``` file as the argument.
->The working directory at the time was the home directory This resulted in an error 
+>Lastly, I used the ```cd``` command with a path to the ```en-us.txt``` file as the argument.
+>The working directory at the time was the home directory. This resulted in an error 
 >because this command was intended to change to a different directory and not a file.
 
 # this is ls
