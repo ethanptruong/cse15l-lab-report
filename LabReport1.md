@@ -14,9 +14,9 @@
 12 /home
 ```
 >I first tried to use the change directory or ```cd``` command to change the directory
->to lecture 1 from the home directory. Using the ```pwd``` or "print working directory" 
->command to demonstrate my current folder is now lecture1. The command worked as 
->intended because the working directory was lecture 1. There was no error. 
+>to ```lecture1``` from the home directory. Using the ```pwd``` or "print working directory" 
+>command to demonstrate my current directory is now ```lecture1```. The command worked as 
+>intended because the working directory was ```lecture1```. There was no error. 
 
 >I then tried to use the ```cd``` command with no argument. As you can see, the folder
 before I used command was ```/home/lecture1```. After using the cd command with no 
@@ -24,7 +24,7 @@ argument, the directory was changed to the home directory as intended because th
 >was no argument. This is seen in line 8. There was no error. 
 
 >Lastly, I used the ```cd``` command with a path to the ```en-us.txt``` file as the argument.
->The working directory at the time was the home directory. This resulted in an error 
+>The working directory at the time was the ```home``` directory. This resulted in an error 
 >because this command was intended to change to a different directory and not a file.
 
 # this is ls
@@ -46,7 +46,7 @@ argument, the directory was changed to the home directory as intended because th
 ```
 
 >First, I used ```ls``` with no command on the ```home``` directory as indicated on 2. This
->printed lecture1,as intended, because lecture1 was the only directory in the
+>printed lecture1,as intended, because ```lecture1``` was the only directory in the
 >```home``` folder. 
 
 >I then used ```ls``` with the ```lecture1``` directory as an argument as seen on line 7.
@@ -55,7 +55,7 @@ argument, the directory was changed to the home directory as intended because th
 
 > I lastly used the file path to the ```en-us.txt``` file as an argument for ```ls``` as
 > seen on line 11. The computer then printed the file path to the terminal.
-> This is not an error because if a filepath is provided as an argument, it will
+> This is not an error because if a file path is provided as an argument, it will
 > print the path if the file exists. 
 
 # this is cat
