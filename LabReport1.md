@@ -14,7 +14,7 @@
 12 /home
 ```
 >I first tried to use the change directory or ```cd``` command to change the directory
->to ```lecture1``` from the home directory. Using the ```pwd``` or "print working directory" 
+>to ```/lecture1``` from the home directory. Using the ```pwd``` or "print working directory" 
 >command to demonstrate my current directory is now ```/lecture1```. The command worked as 
 >intended because the working directory was ```lecture1```. There was no error. 
 
