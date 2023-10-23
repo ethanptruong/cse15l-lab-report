@@ -1,5 +1,5 @@
 # Part 1
-![Image](https://imgur.com/YRhddNr)
+![Image](https://i.imgur.com/YRhddNr.png)
 > When the server receives a new HTTP request, the ```handle``` method is called in the ```ServerHttpHandler``` class.
 > This method then invokes the ```handleRequest``` method from the ```URLHandler``` interface. This method is implemented
 > by the ```Handler``` class, which will check the path and query of the URL to determine what to do.
@@ -15,16 +15,16 @@
 > ```/add-message``` and the query starts with ```s=```, then it appends the message to the message variable, after the num value,
 > period, and follows it with a new line. 
 
-![Image](https://imgur.com/7GrFhK9)
+![Image](https://i.imgur.com/7GrFhK9.png)
 > Similar to before, the ```handle``` method is called in the ```ServerHttpHandler``` class. This method then invokes the
 > ```handleRequest``` method from the ```URLHandler``` interface. This method is implemented by the ```Handler``` class,
 > which will check the path and query of the URL to determine what to do.
 
->Similar to above, the argument for the ```handle``` method is ```exchange```. In yhe method ```Handler.handleRequest(URI url)```,
->```url``` is used as an argument with a value of
->```https://0-0-0-0-4234-4uum28osdvd6qt5t36be6bpo34.us.edusercontent.com/add-message?s=How%20are%20you```. The ```Handler``` has
->relevant fields of ```num``` and ```message```. The value of the message StringBuilder before this url is handled is ```1. Hello\n```
->and the variable ```num``` has a value of 1.
+> Similar to above, the argument for the ```handle``` method is ```exchange```. In yhe method ```Handler.handleRequest(URI url)```,
+> ```url``` is used as an argument with a value of
+> ```https://0-0-0-0-4234-4uum28osdvd6qt5t36be6bpo34.us.edusercontent.com/add-message?s=How%20are%20you```. The ```Handler``` has
+> relevant fields of ```num``` and ```message```. The value of the message StringBuilder before this url is handled is ```1. Hello\n```
+> and the variable ```num``` has a value of 1.
 
 > After the url is handled, the ```message``` field is changed from ```1. Hello\n``` to ```1. Hello\n 2. How are you ```and ```num```
 > is changed from 1 to 2. These values are changed due to how the ```handleRequest``` is implemented. If the path is ```/add-message```
@@ -33,9 +33,9 @@
 
 # Part 2
 ## Public and Private Paths
-![Image](https://imgur.com/CX0BURu)
+![Image](https://i.imgur.com/CX0BURu.png)
 ## Logging into Ieng w/o Password
-![Image](https://imgur.com/do79Vbk)
+![Image](https://i.imgur.com/do79Vbk.png)
 
 # Part 3
 > Before week 2, I didn't know anything about webservers or how they worked. The lab in week 2 taught me how to build and run a simple
