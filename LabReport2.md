@@ -69,7 +69,7 @@ class StringServer {
 
 # Part 2
 ## Public and Private Paths
-![Image]((https://imgur.com/bhL7o2H.png))
+![Image](https://i.imgur.com/bhL7o2H.png)
 ## Logging into Ieng w/o Password
 ![Image](https://i.imgur.com/do79Vbk.png)
 
