@@ -32,9 +32,9 @@ public class ArrayTests {
 }
 ```
 ## This is the symptom of a test that does not induce failure
-![Image] (https://imgur.com/V66ifYE)
+![Image](https://imgur.com/V66ifYE)
 ## This is the symptom of a test that does induce failure
-![Image] (https://imgur.com/xgvtvyQ)
+![Image](https://imgur.com/xgvtvyQ)
 ## This is the code with the bug
 ```
 static void reverseInPlace(int[] arr) {
