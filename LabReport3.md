@@ -81,6 +81,7 @@ $ find ./technical -type d
 > I used the ```find``` command and a ```-type``` option to search for a file of a certain type. The
 > ```-type d``` listed all of the directories within the ```./technical``` directory. It is useful
 > if you want to do something that only considers directories.
+
 ```
 ethan@DESKTOP-5AT37T5 MINGW64 /e/CS/Lab/UCSD/CSE15L/docsearch (main)
 $ find ./technical -type f
@@ -89,6 +90,7 @@ $ find ./technical -type f
 ./technical/biomed/1471-2334-2-29.txt
 ./technical/biomed/1471-2334-2-5.txt
 ```
+
 > I used the ```-type f``` option to instead list all of the files in the ```./technical``` directory.
 > I didn't add all of the output due to the sheer size, but the outputs given seem to encapsulate the
 > overall gist of the command. This is useful if you want to do something to only files like editing
