@@ -145,11 +145,13 @@ $ find ./technical -type f -mtime 365
 > ```-mtime``` option. This should cause all files who have been modified within the past year to be returned.
 > The fact that no files were returned suggests that none of these files have been modified in the past year. This
 > command could be useful if you want to look for recently edited files.
+
 ```
 ethan@DESKTOP-5AT37T5 MINGW64 /e/CS/Lab/UCSD/CSE15L/docsearch (main)
 $ find ./technical -type d -mtime 700
 
 ```
+
 > I used the ```-type d -mtime 700``` options to list all directories in the ```./technical``` directory
 > using the ```-mtime``` option. This should cause all the directories that have been modified in the last
 > 700 days to be returned. The fact that no directories were returned suggests that none of the directories
