@@ -33,9 +33,9 @@ public class ArrayTests {
 ```
 
 ## This is the symptom of a test that does not induce failure
-![Image](https://imgur.com/a/cqxeBji.png)
+![Image](https://i.imgur.com/a/cqxeBji.png)
 ## This is the symptom of a test that does induce failure
-![Image](https://imgur.com/a/sJKNE8M.png)
+![Image](https://i.imgur.com/a/sJKNE8M.png)
 ## This is the code with the bug
 ```
 static void reverseInPlace(int[] arr) {
