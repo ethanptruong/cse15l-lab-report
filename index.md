@@ -4,3 +4,5 @@
 [Lab Report 1](https://ethanptruong.github.io/cse15l-lab-report/LabReport1)
 
 [Lab Report 2](https://ethanptruong.github.io/cse15l-lab-report/LabReport2)
+
+[Lab Report 3](https://ethanptruong.github.io/cse15l-lab-report/LabReport3)
