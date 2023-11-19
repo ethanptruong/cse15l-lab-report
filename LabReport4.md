@@ -6,7 +6,7 @@
 
 
 ## Step 5: Clone Repository
-![Image]([https://imgur.com/RqXonnH.png)
+![Image](https://imgur.com/RqXonnH.png)
 > Keys Pressed: I cloned the forked repository by typing ```git clone git@github.com:ethanptruong/lab7.git```, and then ```<Enter>```.
 > The git clone command cloned the ```SSH``` repository from GitHub to the local machine (in this case the ```ieng6``` computer) to create
 > a local copy of the forked repository.
