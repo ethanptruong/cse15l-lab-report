@@ -8,3 +8,5 @@
 [Lab Report 3](https://ethanptruong.github.io/cse15l-lab-report/LabReport3)
 
 [Lab Report 4](https://ethanptruong.github.io/cse15l-lab-report/LabReport4)
+
+[Lab Report 5](https://ethanptruong.github.io/cse15l-lab-report/LabReport5)
