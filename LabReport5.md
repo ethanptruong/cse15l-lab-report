@@ -1,5 +1,11 @@
 # Lab Report 5
 ## Buggy Code Help
+### Method Classes 
+![Image](https://imgur.com/mWwqOf2.png)
+### Tester Classes
+![Image](https://imgur.com/pEiSoFA.png)
+### Symptoms
+![Image](https://imgur.com/Dayy053.png)
 > I've tried creating two private helper methods called ```filter``` and ```merge``` for PA1. But when I tested this code for correctness, two of my tests keep failing.
 > In terms of symptoms, it seems that two tests are failing, ```testFilter``` and ```testMerge```. For ```testMerge```, it seems that the test timed out because
 > it ran past 100 milliseconds to run. For ```testFilter```, we expected ```[apple, a]``` but got ```[a, apple]``` instead. For input-inducing failures, the ```testFilter```
@@ -15,6 +21,8 @@
 > Hopefully this is helpful!
 
 ## Fixing the Bug
+### Fixed Bug
+![Image](https://imgur.com/sQZMD3X.png)
 > I realized that the bug in my ```filter``` method was in how I added each of the filtered elements to the filtered list. I used ```result.add(0, s)``` which inserts each new
 > element at the beginning of the list instead of at the end. This consequently results in a final list that has elements in reverse order compared to their original order in
 > the input list. To fix this, I changed the method to ```result.add(s)```, so it should instead add each new element to the end of the result list.
