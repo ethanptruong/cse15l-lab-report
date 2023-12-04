@@ -144,5 +144,5 @@ java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUn
 ## Reflection
 > I think  that one of the coolest things that I've learned in the later half of this quarter is the use of Vim for code editing. Initially, it took me a while to
 > get used to using Vim because the controls were just so unintuitive to me. After learning a lot of commands to navigate and edit through code, I think Vim has
-> become an invaluable tool and will be especially useful in future classes like CSE30, as I've heard from friends currently in the class about the need to edit
-> using Vim. 
+> become an invaluable tool and will be especially useful in future classes like CSE30, as I've heard from friends currently in the class about the need to edit 
+> written code using Vim. 
